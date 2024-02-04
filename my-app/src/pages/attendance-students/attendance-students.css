@@ -1,0 +1,542 @@
+@font-face {
+    font-family: Inter-Bold;
+    src: url("../../assets/static/Inter-Bold.ttf");
+
+}
+
+@font-face {
+    font-family: Inter-Regular;
+    src: url("../../assets/static/Inter-Regular.ttf");
+
+}
+
+.AttendanceStudents {
+    background-color: white;
+    width: 100%;
+    height: 1000px;
+}
+
+#as_s1 {
+    margin-left: 270px;
+}
+
+#as_s1_class_header {
+    font-family: Inter-Bold;
+    font-size: 13px;
+    color: #B1B1B1;
+    margin-top: 30px;
+}
+
+#as_s1_subjects_header {
+    font-family: Inter-Bold;
+    font-size: 13px;
+    color: #B1B1B1;
+    margin-top: 30px;
+}
+
+#as_s1_date_header {
+    font-family: Inter-Bold;
+    font-size: 13px;
+    color: #B1B1B1;
+    margin-top: 30px;
+}
+
+.as_s1_select {
+    margin-top: 10px;
+}
+
+#as_s1_class_select_group {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#as_s1_subjects_select_group {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+}
+
+#as_s1_date_select_group {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+}
+
+#as_s1_class_select {
+    font-family: Inter-Bold;
+    font-size: 18px;
+    color: #B1B1B1;
+    width: 350px;
+    height: 40px;
+    border: #B1B1B1 solid 1px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+#as_s1_subject_select {
+    font-family: Inter-Bold;
+    font-size: 18px;
+    color: #B1B1B1;
+    width: 250px;
+    height: 40px;
+    border: #B1B1B1 solid 1px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+#as_s1_date_select {
+    font-family: Inter-Bold;
+    font-size: 18px;
+    color: #B1B1B1;
+    width: 250px;
+    height: 40px;
+    border: #B1B1B1 solid 1px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.as_s1_user_groups {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    text-decoration: none;
+    font-family: Inter-Bold;
+    color: #B1B1B1;
+    background-color: white;
+    padding: 0px;
+    margin-top: 20px;
+}
+
+.as_s1_user_page_links {
+    text-decoration: none;
+    font-family: Inter-Bold;
+    color: #B1B1B1;
+}
+
+#as_s1_view_btn {
+    margin-top: 60px;
+    background-color: #001C3E;
+    border: #001C3E solid 1px;
+    border-radius: 20px;
+    width: 80px;
+    height: 40px;
+    font-family: Inter-Bold;
+    color: white;
+    margin-left: 20px;
+}
+
+#as_s2 {
+    margin-left: 290px;
+    border-top: black solid 4px;
+    margin-top: 40px;
+    width: 75%;
+}
+
+#as_s2_header {
+    font-family: Inter-Bold;
+    color: black;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+.as_s2_th {
+    text-align: center;
+    font-family: Inter-Bold;
+    font-size: 14px;
+    color: black;
+    padding-bottom: 10px;
+}
+
+.as_s2_th_row {
+    border-bottom: #B1B1B1 solid 2px;
+}
+
+.as_s2_name {
+    width: 167px;
+    margin-top: 4px;
+    margin-left: 89px;
+}
+#as_s2_status_th {
+    float: right;
+    margin-right: 110px;
+}
+.as_s2_dtable_bi.bi-person-circle::before {
+    margin-right: 10px;
+    margin-top: 4px;
+    font-size: 25px;
+    padding-left: 55px;
+}
+.as_s2_dtable_td {
+    font-family: Inter-Bold;
+    padding-top: 20px;
+}
+
+.as_s2_absent_status_group {
+    margin-top: 4px;
+    padding-left: 410px;
+    padding-right: 17px;
+
+}
+
+.as_s2_rdo_input {
+    margin-right: 5px;
+    margin-left: 20px;
+}
+
+
+@media screen and (min-width: 1700px) {
+    .AttendanceTeachers {
+        background-color: white;
+        width: 100%;
+        height: 1000px;
+    }
+    
+    #as_s1 {
+        margin-left: 370px;
+    }
+    
+    #as_s1_class_header {
+        font-family: Inter-Bold;
+        font-size: 13px;
+        color: #B1B1B1;
+        margin-top: 30px;
+    }
+    
+    #as_s1_subjects_header {
+        font-family: Inter-Bold;
+        font-size: 13px;
+        color: #B1B1B1;
+        margin-top: 30px;
+    }
+    
+    #as_s1_date_header {
+        font-family: Inter-Bold;
+        font-size: 13px;
+        color: #B1B1B1;
+        margin-top: 30px;
+    }
+    
+    .as_s1_select {
+        margin-top: 10px;
+    }
+    
+    #as_s1_class_select_group {
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    #as_s1_subjects_select_group {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 20px;
+    }
+    
+    #as_s1_date_select_group {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 20px;
+    }
+    
+    #as_s1_class_select {
+        font-family: Inter-Bold;
+        font-size: 20px;
+        color: #B1B1B1;
+        width: 370px;
+        height: 60px;
+        border: #B1B1B1 solid 1px;
+        border-radius: 5px;
+        padding-left: 10px;
+    }
+    
+    #as_s1_subject_select {
+        font-family: Inter-Bold;
+        font-size: 20px;
+        color: #B1B1B1;
+        width: 270px;
+        height: 60px;
+        border: #B1B1B1 solid 1px;
+        border-radius: 5px;
+        padding-left: 10px;
+    }
+    
+    #as_s1_date_select {
+        font-family: Inter-Bold;
+        font-size: 20px;
+        color: #B1B1B1;
+        width: 270px;
+        height: 60px;
+        border: #B1B1B1 solid 1px;
+        border-radius: 5px;
+        padding-left: 10px;
+    }
+    
+    .as_s1_user_groups {
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        text-decoration: none;
+        font-family: Inter-Bold;
+        color: #B1B1B1;
+        background-color: white;
+        padding: 0px;
+        margin-top: 20px;
+    }
+    
+    .as_s1_user_page_links {
+        text-decoration: none;
+        font-family: Inter-Bold;
+        color: #B1B1B1;
+    }
+    
+    #as_s1_view_btn {
+        margin-top: 60px;
+        background-color: #001C3E;
+        border: #001C3E solid 1px;
+        border-radius: 20px;
+        width: 100px;
+        height: 60px;
+        font-family: Inter-Bold;
+        font-size: 20px;
+        color: white;
+        margin-left: 20px;
+    }
+    
+    #as_s2 {
+        margin-left: 390px;
+        border-top: black solid 4px;
+        margin-top: 40px;
+        width: 75%;
+    }
+    
+    #as_s2_header {
+        font-family: Inter-Bold;
+        color: black;
+        font-size: 25px;
+        margin-top: 40px;
+        margin-left: 60px;
+    }
+    
+    .as_s2_th {
+        text-align: center;
+        font-family: Inter-Bold;
+        font-size: 16px;
+        color: black;
+        padding-bottom: 10px;
+    }
+    
+    .as_s2_th_row {
+        border-bottom: #B1B1B1 solid 2px;
+    }
+    
+    .as_s2_name {
+        width: 171px;
+        margin-top: 4px;
+        margin-left: 89px;
+    }
+    #as_s2_status_th {
+        float: right;
+        margin-right: 110px;
+    }
+    .as_s2_dtable_bi.bi-person-circle::before {
+        margin-right: 10px;
+        margin-top: 4px;
+        font-size: 30px;
+        padding-left: 55px;
+    }
+    .as_s2_dtable_td {
+        font-family: Inter-Bold;
+        font-size: 20px;
+        padding-top: 20px;
+    }
+    
+    .as_s2_absent_status_group {
+        margin-top: 4px;
+        padding-left: 615px;
+        padding-right: 17px;
+    
+    }
+    
+    .as_s2_rdo_input {
+        margin-right: 5px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .AttendanceStudents {
+        background-color: white;
+        width: 100%;
+        height: 1000px;
+    }
+    
+    #as_s1 {
+        margin-left: 370px;
+    }
+    
+    #as_s1_class_header {
+        font-family: Inter-Bold;
+        font-size: 20px;
+        color: #B1B1B1;
+        margin-top: 30px;
+    }
+    
+    #as_s1_subjects_header {
+        font-family: Inter-Bold;
+        font-size: 20px;
+        color: #B1B1B1;
+        margin-top: 30px;
+    }
+    
+    #as_s1_date_header {
+        font-family: Inter-Bold;
+        font-size: 20px;
+        color: #B1B1B1;
+        margin-top: 30px;
+    }
+    
+    .as_s1_select {
+        margin-top: 10px;
+    }
+    
+    #as_s1_class_select_group {
+        display: inline-block;
+        vertical-align: top;
+    }
+    
+    #as_s1_subjects_select_group {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 20px;
+    }
+    
+    #as_s1_date_select_group {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 20px;
+    }
+    
+    #as_s1_class_select {
+        font-family: Inter-Bold;
+        font-size: 25px;
+        color: #B1B1B1;
+        width: 450px;
+        height: 70px;
+        border: #B1B1B1 solid 1px;
+        border-radius: 5px;
+        padding-left: 10px;
+    }
+    
+    #as_s1_subject_select {
+        font-family: Inter-Bold;
+        font-size: 25px;
+        color: #B1B1B1;
+        width: 350px;
+        height: 70px;
+        border: #B1B1B1 solid 1px;
+        border-radius: 5px;
+        padding-left: 10px;
+    }
+    
+    #as_s1_date_select {
+        font-family: Inter-Bold;
+        font-size: 25px;
+        color: #B1B1B1;
+        width: 350px;
+        height: 70px;
+        border: #B1B1B1 solid 1px;
+        border-radius: 5px;
+        padding-left: 10px;
+    }
+    
+    .as_s1_user_groups {
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        text-decoration: none;
+        font-family: Inter-Bold;
+        color: #B1B1B1;
+        background-color: white;
+        padding: 0px;
+        margin-top: 20px;
+    }
+    
+    .as_s1_user_page_links {
+        text-decoration: none;
+        font-family: Inter-Bold;
+        color: #B1B1B1;
+    }
+    
+    #as_s1_view_btn {
+        margin-top: 68px;
+        background-color: #001C3E;
+        border: #001C3E solid 1px;
+        border-radius: 20px;
+        width: 100px;
+        height: 70px;
+        font-family: Inter-Bold;
+        font-size: 25px;
+        color: white;
+        margin-left: 20px;
+    }
+    
+    #as_s2 {
+        margin-left: 390px;
+        border-top: black solid 4px;
+        margin-top: 40px;
+        width: 78%;
+    }
+    
+    #as_s2_header {
+        font-family: Inter-Bold;
+        color: black;
+        font-size: 25px;
+        margin-top: 40px;
+        margin-left: 60px;
+    }
+    
+    .as_s2_th {
+        text-align: center;
+        font-family: Inter-Bold;
+        font-size: 20px;
+        color: black;
+        padding-bottom: 10px;
+    }
+    
+    .as_s2_th_row {
+        border-bottom: #B1B1B1 solid 2px;
+    }
+    
+    .as_s2_name {
+        width: 217px;
+        margin-top: 4px;
+        margin-left: 89px;
+    }
+    #as_s2_status_th {
+        float: right;
+        margin-right: 110px;
+    }
+    .as_s2_dtable_bi.bi-person-circle::before {
+        margin-right: 10px;
+        margin-top: 4px;
+        font-size: 35px;
+        padding-left: 55px;
+    }
+    .as_s2_dtable_td {
+        font-family: Inter-Bold;
+        font-size: 25px;
+        padding-top: 20px;
+    }
+    
+    .as_s2_absent_status_group {
+        margin-top: 4px;
+        padding-left: 835px;
+        padding-right: 17px;
+    
+    }
+    
+    .as_s2_rdo_input {
+        margin-right: 5px;
+        margin-left: 20px;
+    }
+}

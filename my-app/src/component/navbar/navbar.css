@@ -1,0 +1,208 @@
+@font-face {
+    font-family: Inter-Bold;
+    src: url("../../assets/static/Inter-Bold.ttf");
+
+}
+
+@font-face {
+    font-family: Inter-Regular;
+    src: url("../../assets/static/Inter-Regular.ttf");
+
+}
+
+#qm_logo {
+    width: 175px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+#profile_group {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.bi-emoji-smile {
+    font-size: 60px;
+    color: white;
+    background-color: black;
+    padding: 0px 10px 3px 11px;
+    border: white solid 2px;
+    border-radius: 42px;
+}
+
+#username {
+    margin-top: 15px;
+    font-family: Inter-Regular;
+    color: white;
+}
+
+#role {
+    font-family: Inter-Regular;
+    color: white;
+    margin-top: 6px;
+    font-size: 12px;
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    background-color: #1E1E1E;
+    position: fixed;
+    height: 97%;
+    overflow: auto;
+}
+
+/* Sidebar links */
+.sidebar button {
+    display: block;
+    background-color: #1E1E1E;
+    color: white;
+    text-decoration: none;
+    text-align: start;
+    padding: 0px;
+    border: none;
+    width: 100%;
+}
+
+button .nav_bi {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 12px;
+    font-family: Inter-Regular;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+/* Active/current link */
+.sidebar button:focus {
+    background-color: #2988C0;
+    color: white;
+    box-shadow: none !important;
+    outline: 0px !important;
+}
+
+.sidebar a:focus {
+    background-color: #2988C0;
+    color: white;
+}
+
+/* Links on mouse-over */
+.sidebar button:hover {
+    background-color: #555;
+    color: white;
+}
+
+@media screen and (min-width: 1700px) {
+    #qm_logo {
+        width: 245px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    .bi-emoji-smile {
+        font-size: 80px;
+        color: white;
+        background-color: black;
+        padding: 0px 15px 3px 15px;
+        border: white solid 2px;
+        border-radius: 80px;
+    }
+
+    #username {
+        margin-top: 15px;
+        font-family: Inter-Regular;
+        color: white;
+        font-size: 22px;
+    }
+
+    #role {
+        font-family: Inter-Regular;
+        color: white;
+        margin-top: 6px;
+        font-size: 22px;
+    }
+
+    .sidebar {
+        margin: 0;
+        padding: 0;
+        width: 350px;
+        background-color: #1E1E1E;
+        position: fixed;
+        height: 98%;
+        overflow: auto;
+    }
+
+    .sidebar a {
+        display: block;
+        color: white;
+        padding: 15px;
+        font-family: Inter-Regular;
+        font-size: 22px;
+        text-decoration: none;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    #qm_logo {
+        width: 260px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+
+    .bi-emoji-smile {
+        font-size: 90px;
+        color: white;
+        background-color: black;
+        padding: 0px 17px 3px 17px;
+        border: white solid 2px;
+        border-radius: 80px;
+    }
+
+    #username {
+        margin-top: 15px;
+        font-family: Inter-Regular;
+        color: white;
+        font-size: 25px;
+    }
+
+    #role {
+        font-family: Inter-Regular;
+        color: white;
+        margin-top: 6px;
+        font-size: 25px;
+    }
+
+    .sidebar {
+        margin: 0;
+        padding: 0;
+        width: 350px;
+        background-color: #1E1E1E;
+        position: fixed;
+        height: 98%;
+        overflow: auto;
+    }
+
+    .sidebar a {
+        display: block;
+        color: white;
+        padding: 20px;
+        font-family: Inter-Regular;
+        font-size: 25px;
+        text-decoration: none;
+    }
+}

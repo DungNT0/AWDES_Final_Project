@@ -1,0 +1,523 @@
+@font-face {
+    font-family: Inter-Bold;
+    src: url("../../../assets/static/Inter-Bold.ttf");
+
+}
+
+@font-face {
+    font-family: Inter-Regular;
+    src: url("../../../assets/static/Inter-Regular.ttf");
+
+}
+
+.StudentsRegister {
+    background-color: white;
+    width: 100%;
+    height: 1200px;
+}
+
+#sr_s1 {
+    margin-left: 270px;
+}
+
+.sr_s1_user_groups {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    text-decoration: none;
+    font-family: Inter-Bold;
+    color: #B1B1B1;
+    background-color: white;
+    padding: 0px;
+    margin-top: 20px;
+}
+
+.sr_s1_user_page_links {
+    text-decoration: none;
+    font-family: Inter-Bold;
+    color: #B1B1B1;
+}
+
+.sr_border {
+    border-bottom: #B1B1B1 solid 2px;
+    margin-top: 20px;
+    width: 140px;
+}
+
+.sr_s1_user_page_links:focus {
+    color: black;
+}
+
+#sr_s2 {
+    margin-left: 270px;
+    margin-top: 20px;
+}
+
+#sr_s3 {
+    margin-left: 270px;
+    margin-top: 70px;
+    border-top: black solid 5px;
+    width: 78%;
+    height: 850px;
+    border-left: #B1B1B1 1px solid;
+    border-right: #B1B1B1 1px solid;
+    border-bottom: #B1B1B1 1px solid;
+}
+
+#sr_s3 tr {
+    border: none;
+}
+
+#sr_s3 .row {
+    padding-top: 40px;
+    border-top: #B1B1B1 1px solid;
+}
+
+#sr_s3 th {
+    border: none;
+}
+
+#sr_s3_header {
+    font-family: Inter-Bold;
+    color: black;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.sr_s3_label {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.sr_s3_input {
+    margin-top: 16px;
+    float: right;
+    margin-right: 20px;
+    width: 750px;
+    border: silver solid 1px;
+    border-radius: 5px;
+}
+
+#sr_s3_male_checkbox {
+    margin-left: 195px;
+
+}
+
+.sr_s3_checkbox {
+    margin-left: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+#sr_s3_upph_img {
+    cursor: pointer;
+    margin-left: 280px;
+    /* Style as you please, it will become the visible UI component. */
+}
+
+#sr_s3_upload_photo {
+    opacity: 0;
+    position: absolute;
+    width: fit-content;
+    z-index: -1;
+}
+
+#sr_s3_save_bsr {
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+    font-family: Inter-Regular;
+    margin-top: 10px;
+    border-radius: 20px;
+    width: 70px;
+    height: 45px;
+}
+
+@media screen and (min-width: 1500px) {
+    .StudentsRegister {
+        background-color: white;
+        width: 100%;
+        height: 1300px;
+    }
+    
+    #sr_s1 {
+        margin-left: 270px;
+    }
+    
+    .sr_s1_user_groups {
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        text-decoration: none;
+        font-family: Inter-Bold;
+        color: #B1B1B1;
+        background-color: white;
+        padding: 0px;
+        margin-top: 20px;
+    }
+    
+    .sr_s1_user_page_links {
+        text-decoration: none;
+        font-family: Inter-Bold;
+        color: #B1B1B1;
+    }
+    
+    .sr_border {
+        border-bottom: #B1B1B1 solid 2px;
+        margin-top: 20px;
+        width: 140px;
+    }
+    
+    .sr_s1_user_page_links:focus {
+        color: black;
+    }
+    
+    #sr_s2 {
+        margin-left: 270px;
+        margin-top: 20px;
+    }
+    
+    #sr_s3 {
+        margin-left: 270px;
+        margin-top: 70px;
+        border-top: black solid 5px;
+        width: 78%;
+        height: 900px;
+        border-left: #B1B1B1 1px solid;
+        border-right: #B1B1B1 1px solid;
+        border-bottom: #B1B1B1 1px solid;
+    }
+    
+    #sr_s3 tr {
+        border: none;
+    }
+    
+    #sr_s3 .row {
+        padding-top: 40px;
+        border-top: #B1B1B1 1px solid;
+    }
+    
+    #sr_s3 th {
+        border: none;
+    }
+    
+    #sr_s3_header {
+        font-family: Inter-Bold;
+        color: black;
+        margin-left: 20px;
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    
+    .sr_s3_label {
+        margin-left: 20px;
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    
+    .sr_s3_input {
+        margin-top: 20px;
+        float: right;
+        margin-right: 20px;
+        width: 800px;
+        border: silver solid 1px;
+        border-radius: 5px;
+    }
+    
+    #sr_s3_male_checkbox {
+        margin-left: 245px;
+    
+    }
+    
+    .sr_s3_checkbox {
+        margin-left: 20px;
+        width: 20px;
+        height: 20px;
+    }
+    
+    #sr_s3_upph_img {
+        cursor: pointer;
+        margin-left: 340px;
+        /* Style as you please, it will become the visible UI component. */
+    }
+    
+    #sr_s3_upload_photo {
+        opacity: 0;
+        position: absolute;
+        width: fit-content;
+        z-index: -1;
+    }
+    
+    #sr_s3_save_bsr {
+        margin-left: 20px;
+        background-color: black;
+        color: white;
+        font-family: Inter-Regular;
+        font-size: 20px;
+        margin-top: 10px;
+        border-radius: 20px;
+        width: 80px;
+        height: 50px;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    .StudentsRegister {
+        background-color: white;
+        width: 100%;
+        height: 1400px;
+    }
+    
+    #sr_s1 {
+        margin-left: 270px;
+    }
+    
+    .sr_s1_user_groups {
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        text-decoration: none;
+        font-family: Inter-Bold;
+        color: #B1B1B1;
+        background-color: white;
+        padding: 0px;
+        margin-top: 20px;
+    }
+    
+    .sr_s1_user_page_links {
+        text-decoration: none;
+        font-family: Inter-Bold;
+        font-size: 20px;
+        color: #B1B1B1;
+    }
+    
+    .sr_border {
+        border-bottom: #B1B1B1 solid 2px;
+        margin-top: 20px;
+        width: 140px;
+    }
+    
+    .sr_s1_user_page_links:focus {
+        color: black;
+    }
+    
+    #sr_s2 {
+        margin-left: 370px;
+        margin-top: 20px;
+    }
+    
+    #sr_s3 {
+        margin-left: 370px;
+        margin-top: 70px;
+        border-top: black solid 5px;
+        width: 77%;
+        height: 1000px;
+        border-left: #B1B1B1 1px solid;
+        border-right: #B1B1B1 1px solid;
+        border-bottom: #B1B1B1 1px solid;
+    }
+    
+    #sr_s3 tr {
+        border: none;
+    }
+    
+    #sr_s3 .row {
+        padding-top: 40px;
+        border-top: #B1B1B1 1px solid;
+    }
+    
+    #sr_s3 th {
+        border: none;
+    }
+    
+    #sr_s3_header {
+        font-family: Inter-Bold;
+        color: black;
+        margin-left: 20px;
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    
+    .sr_s3_label {
+        margin-left: 20px;
+        margin-top: 20px;
+        font-size: 25px;
+    }
+    
+    .sr_s3_input {
+        margin-top: 25px;
+        float: right;
+        margin-right: 20px;
+        width: 900px;
+        height: 30px;
+        border: silver solid 1px;
+        border-radius: 5px;
+    }
+    
+    #sr_s3_male_checkbox {
+        margin-left: 260px;
+    
+    }
+    
+    .sr_s3_checkbox {
+        margin-left: 20px;
+        width: 20px;
+        height: 20px;
+    }
+    
+    #sr_s3_upph_img {
+        cursor: pointer;
+        margin-left: 370px;
+        /* Style as you please, it will become the visible UI component. */
+    }
+    
+    #sr_s3_upload_photo {
+        opacity: 0;
+        position: absolute;
+        width: fit-content;
+        z-index: -1;
+    }
+    
+    #sr_s3_save_bsr {
+        margin-left: 20px;
+        background-color: black;
+        color: white;
+        font-family: Inter-Regular;
+        font-size: 20px;
+        margin-top: 10px;
+        border-radius: 20px;
+        width: 80px;
+        height: 50px;
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .StudentsRegister {
+        background-color: white;
+        width: 100%;
+        height: 1400px;
+    }
+    
+    #sr_s1 {
+        margin-left: 270px;
+    }
+    
+    .sr_s1_user_groups {
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        text-decoration: none;
+        font-family: Inter-Bold;
+        color: #B1B1B1;
+        background-color: white;
+        padding: 0px;
+        margin-top: 20px;
+    }
+    
+    .sr_s1_user_page_links {
+        text-decoration: none;
+        font-family: Inter-Bold;
+        font-size: 20px;
+        color: #B1B1B1;
+    }
+    
+    .sr_border {
+        border-bottom: #B1B1B1 solid 2px;
+        margin-top: 20px;
+        width: 140px;
+    }
+    
+    .sr_s1_user_page_links:focus {
+        color: black;
+    }
+    
+    #sr_s2 {
+        margin-left: 370px;
+        margin-top: 20px;
+    }
+    
+    #sr_s3 {
+        margin-left: 370px;
+        margin-top: 70px;
+        border-top: black solid 5px;
+        width: 77%;
+        height: 1000px;
+        border-left: #B1B1B1 1px solid;
+        border-right: #B1B1B1 1px solid;
+        border-bottom: #B1B1B1 1px solid;
+    }
+    
+    #sr_s3 tr {
+        border: none;
+    }
+    
+    #sr_s3 .row {
+        padding-top: 40px;
+        border-top: #B1B1B1 1px solid;
+    }
+    
+    #sr_s3 th {
+        border: none;
+    }
+    
+    #sr_s3_header {
+        font-family: Inter-Bold;
+        color: black;
+        margin-left: 20px;
+        margin-top: 20px;
+        font-size: 30px;
+    }
+    
+    .sr_s3_label {
+        margin-left: 20px;
+        margin-top: 20px;
+        font-size: 25px;
+    }
+    
+    .sr_s3_input {
+        margin-top: 25px;
+        float: right;
+        margin-right: 20px;
+        width: 1000px;
+        height: 30px;
+        border: silver solid 1px;
+        border-radius: 5px;
+    }
+    
+    #sr_s3_male_checkbox {
+        margin-left: 250px;
+    
+    }
+    
+    .sr_s3_checkbox {
+        margin-left: 20px;
+        width: 20px;
+        height: 20px;
+    }
+    
+    #sr_s3_upph_img {
+        cursor: pointer;
+        margin-left: 350px;
+        /* Style as you please, it will become the visible UI component. */
+    }
+    
+    #sr_s3_upload_photo {
+        opacity: 0;
+        position: absolute;
+        width: fit-content;
+        z-index: -1;
+    }
+    
+    #sr_s3_save_bsr {
+        margin-left: 20px;
+        background-color: black;
+        color: white;
+        font-family: Inter-Regular;
+        font-size: 20px;
+        margin-top: 10px;
+        border-radius: 20px;
+        width: 80px;
+        height: 50px;
+    }
+}

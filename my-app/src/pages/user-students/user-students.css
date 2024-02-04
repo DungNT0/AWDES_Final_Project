@@ -1,0 +1,242 @@
+@font-face {
+    font-family: Inter-Bold;
+    src: url("../../assets/static/Inter-Bold.ttf");
+
+}
+
+@font-face {
+    font-family: Inter-Regular;
+    src: url("../../assets/static/Inter-Regular.ttf");
+
+}
+
+.UserStudents {
+    background-color: white;
+    width: 100%;
+    height: 1500px;
+}
+
+#us_s1 {
+    margin-left: 270px;
+}
+
+.us_s1_user_groups {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    text-decoration: none;
+    font-family: Inter-Bold;
+    color: #B1B1B1;
+    background-color: white;
+    padding: 0px;
+    margin-top: 20px;
+}
+
+.us_s1_user_page_links {
+    text-decoration: none;
+    font-family: Inter-Bold;
+    color: #B1B1B1;
+}
+
+/* .us_s1_bi.bi-person {
+    font-size: 40px;
+} */
+
+.us_border {
+    border-bottom: #B1B1B1 solid 2px;
+    margin-top: 20px;
+    width: 140px;
+}
+
+.us_s1_user_page_links:focus {
+    color: black;
+}
+
+#us_s2 {
+    margin-left: 270px;
+    margin-top: 20px;
+}
+
+#us_s3 {
+    margin-left: 270px;
+    margin-top: 70px;
+    border-top: black solid 5px;
+    width: 78%;
+    border-left: #B1B1B1 1px solid;
+    border-right: #B1B1B1 1px solid;
+    border-bottom: #B1B1B1 1px solid;
+}
+
+#us_s3 tr {
+    border: none;
+}
+
+#us_s3 .row {
+    padding-top: 40px;
+    border-top: #B1B1B1 1px solid;
+}
+
+#us_s3 th {
+    border: none;
+    text-align: center;
+}
+
+.dtable_td {
+    text-align: center;
+    border-left: 0px;
+    border-right: 0px;
+    vertical-align: middle;
+
+}
+
+.bi-trash::before {
+    float: left;
+    margin-top: 4px;
+    font-size: 18px;
+}
+
+#del_btn {
+    background-color: red;
+    margin-top: 10px;
+    border-color: red;
+}
+
+@media screen and (min-width: 1700px) {
+    .UserTeachers {
+        background-color: white;
+        width: 100%;
+        height: 1500px;
+    }
+    
+    #us_s1 {
+        margin-left: 370px;
+    }
+    
+    .us_s1_user_groups {
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        text-decoration: none;
+        font-family: Inter-Bold;
+        color: #B1B1B1;
+        background-color: white;
+        padding: 0px;
+        margin-top: 20px;
+    }
+    
+    .us_s1_user_page_links {
+        text-decoration: none;
+        font-family: Inter-Bold;
+        color: #B1B1B1;
+        font-size: 20px;
+    }
+    
+    .us_border {
+        border-bottom: #B1B1B1 solid 2px;
+        margin-top: 20px;
+        width: 140px;
+    }
+    
+    .us_s1_user_page_links:focus {
+        color: black;
+    }
+    
+    #us_s2 {
+        margin-left: 370px;
+        margin-top: 20px;
+    }
+    
+    #us_s3 {
+        margin-left: 370px;
+        margin-top: 70px;
+        border-top: black solid 5px;
+        width: 76.5%;
+        border-left: #B1B1B1 1px solid;
+        border-right: #B1B1B1 1px solid;
+        border-bottom: #B1B1B1 1px solid;
+    }
+    
+    #us_s3 tr {
+        border: none;
+        text-align: center;
+    }
+    
+    #us_s3 .row {
+        padding-top: 40px;
+        border-top: #B1B1B1 1px solid;
+    }
+    
+    #us_s3 th {
+        border: none;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .UserTeachers {
+        background-color: white;
+        width: 100%;
+        height: 1500px;
+    }
+    
+    #us_s1 {
+        margin-left: 370px;
+    }
+    
+    .us_s1_user_groups {
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        text-decoration: none;
+        font-family: Inter-Bold;
+        color: #B1B1B1;
+        background-color: white;
+        padding: 0px;
+        margin-top: 20px;
+    }
+    
+    .us_s1_user_page_links {
+        text-decoration: none;
+        font-family: Inter-Bold;
+        color: #B1B1B1;
+        font-size: 20px;
+    }
+    
+    .us_border {
+        border-bottom: #B1B1B1 solid 2px;
+        margin-top: 20px;
+        width: 140px;
+    }
+    
+    .us_s1_user_page_links:focus {
+        color: black;
+    }
+    
+    #us_s2 {
+        margin-left: 370px;
+        margin-top: 20px;
+    }
+    
+    #us_s3 {
+        margin-left: 370px;
+        margin-top: 70px;
+        border-top: black solid 5px;
+        width: 80%;
+        border-left: #B1B1B1 1px solid;
+        border-right: #B1B1B1 1px solid;
+        border-bottom: #B1B1B1 1px solid;
+    }
+    
+    #us_s3 tr {
+        border: none;
+        text-align: center;
+    }
+    
+    #us_s3 .row {
+        padding-top: 40px;
+        border-top: #B1B1B1 1px solid;
+    }
+    
+    #us_s3 th {
+        border: none;
+    }
+}
